@@ -13,7 +13,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="todo-App container">
         <h1 className = "center blue-text"> todo's</h1>
         <Todos todos = {this.state.todos}/>
       </div>
